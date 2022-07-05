@@ -127,7 +127,7 @@ h4{
 
 .email-box{
     
-    margin: 40px 110px;
+    margin: 40px 150px;
     padding: 70px ;
     background: rgba(245, 233, 69, 0.26);
     border-radius: 5px;
@@ -154,7 +154,7 @@ h4{
 .email-box .subscribe-form label{
     width: 120px;
     display: block;
-   
+    text-align: center;
     text-decoration: none;
     padding: 5px 10px;
     background: rgb(233, 46, 32);
@@ -169,6 +169,7 @@ footer{
     background: rgb(0, 3, 14);
     margin: 0;
     padding: 40px;
+   
 }
 footer .footer-title{
     font-family: 'Pacifico', cursive;
