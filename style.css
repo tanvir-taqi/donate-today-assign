@@ -75,7 +75,7 @@ h3{
 }
 .active{
     border: 2px solid rgb(233, 46, 32);
-    background:rgba(233, 45, 32, 0.479);
+    background:rgba(233, 45, 32, 0.322);
     border-radius: 5px;
 }
 .donate-form{
@@ -180,4 +180,35 @@ footer .footer-para{
     color: aliceblue;
     font-size: 22px;
     font-weight: 500;
+}
+.orange-color{
+    color:rgb(233, 46, 32) ;
+    text-shadow: 1px 1px 1px black;
+}
+.fund-amount{
+    margin: 100px 0;
+}
+
+.fund-amount-number{
+    display: flex;
+    padding: 30px 100px;
+    justify-content: space-around;
+}
+.num-cards{
+    padding: 30px;
+    border-radius: 10%;
+}
+.num-cards1{
+    background: rgba(233, 45, 32, 0.39);
+    
+    border-left:4px solid rgb(233, 45, 32);
+}
+
+.num-cards2{
+    background: rgba(33, 89, 241, 0.445);
+    border-left:4px solid rgb(33, 89, 241);
+}
+.num-cards3{
+    background: rgba(35, 201, 243, 0.514);
+    border-left:4px solid rgb(35, 201, 243);
 }
