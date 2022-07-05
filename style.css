@@ -1,0 +1,91 @@
+    @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+body{
+    font-family: 'Mukta', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+   
+    margin: 0;
+    padding:100px 0;
+    background-image: url(./images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+p{
+    font-size: 18px;
+}
+.banner-head{
+    color: aliceblue;
+    text-shadow: 1px 1px 1px black;
+}
+.banner-p{
+    color: antiquewhite;
+    text-shadow: 1px 1px 1px black;
+    padding: 60px;
+}
+.text-center{
+    text-align: center;
+}
+.btn{
+    width: 120px;
+    display: block;
+    margin: 20px auto;
+    text-decoration: none;
+    padding: 5px 10px;
+    background: rgb(233, 46, 32);
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+
+.donate-today{
+    padding: 60px 0;
+    
+}
+h2{
+    font-size: 44px;
+    font-weight: 600;
+}
+h3{
+    font-size: 38px;
+
+    font-weight: 600;
+}
+.amounts{
+    
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+.amount-tk{
+    padding:10px;
+}
+.active{
+    border: 2px solid rgb(233, 46, 32);
+    background:rgba(233, 45, 32, 0.479);
+    border-radius: 5px;
+}
+.donate-form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.donate-form input{
+    width: 50%;
+    display: block;
+    margin: 20px auto;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
